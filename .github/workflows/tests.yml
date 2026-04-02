@@ -75,7 +75,8 @@ jobs:
           cmake ..
           make
           ./src/calculator div 10 5
-Deployment:
+
+  Deploy:
     runs-on: ubuntu-latest
     needs: Test_Add
     steps:
